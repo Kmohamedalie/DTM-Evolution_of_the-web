@@ -15,7 +15,8 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
 
-// audio 
+
+// Audio  Wars of browsers
  function PlaySound(soundobj) {
         var thissound = document.getElementById(soundobj);
         thissound.play();
@@ -26,3 +27,4 @@ function closeNav() {
         thissound.pause();
         thissound.currentTime = 0;
       }
+
