@@ -14,3 +14,15 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
+
+// audio 
+ function PlaySound(soundobj) {
+        var thissound = document.getElementById(soundobj);
+        thissound.play();
+      }
+
+      function StopSound(soundobj) {
+        var thissound = document.getElementById(soundobj);
+        thissound.pause();
+        thissound.currentTime = 0;
+      }
